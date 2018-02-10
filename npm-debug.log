@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\nodejs\\node.exe',
+1 verbose cli   'F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v8.9.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle day04@1.0.0~predev: day04@1.0.0
+6 silly lifecycle day04@1.0.0~predev: no script for predev, continuing
+7 info lifecycle day04@1.0.0~dev: day04@1.0.0
+8 verbose lifecycle day04@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle day04@1.0.0~dev: PATH: F:\nodejs\node_modules\npm\bin\node-gyp-bin;F:\vuespace\day04\node_modules\.bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Java\jdk1.8.0_131\bin;C:\Java\jdk1.8.0_131\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;d:\Git\cmd;F:\nodejs\;C:\Users\Administrator\AppData\Roaming\npm
+10 verbose lifecycle day04@1.0.0~dev: CWD: F:\vuespace\day04
+11 silly lifecycle day04@1.0.0~dev: Args: [ '/d /s /c', 'webpack-dev-server --inline --hot --open' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at Object._errnoException (util.js:1024:11)
+12 verbose stack     at process.kill (internal/process.js:183:18)
+12 verbose stack     at process.listener (F:\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:111:20)
+12 verbose stack     at process.emit (events.js:208:7)
+12 verbose stack     at processEmit (F:\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (F:\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:208:44)
+13 verbose cwd F:\vuespace\day04
+14 error Windows_NT 6.1.7601
+15 error argv "F:\\nodejs\\node.exe" "F:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+16 error node v8.9.0
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
